@@ -206,3 +206,23 @@ let promedioGeneral: number =
     sumaPromedios / estudiantesAcademicos.length;
 
 console.log("Promedio general:", promedioGeneral);
+
+// Ejercicio 12
+
+for (let i = 0; i < estudiantesAcademicos.length; i++) {
+    let sumaNotas: number = 0;
+
+    for (let j = 0; j < estudiantesAcademicos[i].materias.length; j++) {
+        sumaNotas = sumaNotas + estudiantesAcademicos[i].materias[j].nota;
+    }
+
+    let promedioEstudiante: number =
+        sumaNotas / estudiantesAcademicos[i].materias.length;
+
+    if (promedioEstudiante > 3.5) {
+        console.log(
+            "Estudiante con promedio mayor a 3.5:",
+            estudiantesAcademicos[i].nombre
+        );
+    }
+}

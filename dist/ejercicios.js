@@ -156,4 +156,15 @@ for (let i = 0; i < estudiantesAcademicos.length; i++) {
 }
 let promedioGeneral = sumaPromedios / estudiantesAcademicos.length;
 console.log("Promedio general:", promedioGeneral);
+// Ejercicio 12
+for (let i = 0; i < estudiantesAcademicos.length; i++) {
+    let sumaNotas = 0;
+    for (let j = 0; j < estudiantesAcademicos[i].materias.length; j++) {
+        sumaNotas = sumaNotas + estudiantesAcademicos[i].materias[j].nota;
+    }
+    let promedioEstudiante = sumaNotas / estudiantesAcademicos[i].materias.length;
+    if (promedioEstudiante > 3.5) {
+        console.log("Estudiante con promedio mayor a 3.5:", estudiantesAcademicos[i].nombre);
+    }
+}
 //# sourceMappingURL=ejercicios.js.map
