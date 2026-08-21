@@ -18,7 +18,7 @@ console.log("Cantidad de estudiantes:", estudiantes.length);
 
 // Ejercicio 3
 
-let numeros: number[] = [2, 1, 3, 5, 4];
+let numeros: number[] = [20, 60, 35, 80, 50, 75];
 
 let suma: number = 0;
 
@@ -52,3 +52,11 @@ console.log("Suma total:", sumaAleatorios);
 let promedio: number = suma / numeros.length;
 
 console.log("Promedio:", promedio);
+
+// Ejercicio 6
+
+for (let i = 0; i < numeros.length; i++) {
+    if (numeros[i] > 50) {
+        console.log("Número mayor a 50:", numeros[i]);
+    }
+}
