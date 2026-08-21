@@ -54,15 +54,18 @@ console.log("Ciudad:", persona.ciudad);
 let productos = [
     {
         nombre: "Mouse",
-        precio: 80000
+        precio: 80000,
+        cantidad: 10
     },
     {
         nombre: "Teclado",
-        precio: 120000
+        precio: 120000,
+        cantidad: 5
     },
     {
         nombre: "Monitor",
-        precio: 500000
+        precio: 500000,
+        cantidad: 3
     }
 ];
 for (let i = 0; i < productos.length; i++) {
@@ -78,4 +81,10 @@ for (let i = 1; i < productos.length; i++) {
 }
 console.log("Producto más caro:", productoMayor.nombre);
 console.log("Precio:", productoMayor.precio);
+// Ejercicio 10
+let valorTotalInventario = 0;
+for (let i = 0; i < productos.length; i++) {
+    valorTotalInventario = valorTotalInventario + (productos[i].precio * productos[i].cantidad);
+}
+console.log("Valor total del inventario:", valorTotalInventario);
 //# sourceMappingURL=ejercicios.js.map
