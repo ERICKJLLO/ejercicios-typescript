@@ -46,3 +46,9 @@ for (let i = 0; i < numerosAleatorios.length; i++) {
 
 console.log("Cantidad de números:", numerosAleatorios.length);
 console.log("Suma total:", sumaAleatorios);
+
+// Ejercicio 5
+
+let promedio: number = suma / numeros.length;
+
+console.log("Promedio:", promedio);
