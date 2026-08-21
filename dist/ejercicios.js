@@ -69,4 +69,13 @@ for (let i = 0; i < productos.length; i++) {
     console.log("Producto:", productos[i].nombre);
     console.log("Precio:", productos[i].precio);
 }
+// Ejercicio 9
+let productoMayor = productos[0];
+for (let i = 1; i < productos.length; i++) {
+    if (productos[i].precio > productoMayor.precio) {
+        productoMayor = productos[i];
+    }
+}
+console.log("Producto más caro:", productoMayor.nombre);
+console.log("Precio:", productoMayor.precio);
 //# sourceMappingURL=ejercicios.js.map
