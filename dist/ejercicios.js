@@ -1,6 +1,6 @@
 "use strict";
-// Ejercicio 1
 Object.defineProperty(exports, "__esModule", { value: true });
+console.log("===== Ejercicio 1 =====");
 let estudiantes = [
     "Ana",
     "Carlos",
@@ -11,16 +11,16 @@ let estudiantes = [
 for (let i = 0; i < estudiantes.length; i++) {
     console.log(estudiantes[i]);
 }
-// Ejercicio 2
+console.log("===== Ejercicio 2 =====");
 console.log("Cantidad de estudiantes:", estudiantes.length);
-// Ejercicio 3
+console.log("===== Ejercicio 3 =====");
 let numeros = [20, 60, 35, 80, 50, 75];
 let suma = 0;
 for (let i = 0; i < numeros.length; i++) {
     suma = suma + numeros[i];
 }
 console.log("Suma total:", suma);
-// Ejercicio 4
+console.log("===== Ejercicio 4 =====");
 let numerosAleatorios = [];
 for (let i = 0; i < 1500; i++) {
     let numeroAleatorio = Math.round(Math.random() * 100);
@@ -32,16 +32,16 @@ for (let i = 0; i < numerosAleatorios.length; i++) {
 }
 console.log("Cantidad de números:", numerosAleatorios.length);
 console.log("Suma total:", sumaAleatorios);
-// Ejercicio 5
+console.log("===== Ejercicio 5 =====");
 let promedio = suma / numeros.length;
 console.log("Promedio:", promedio);
-// Ejercicio 6
+console.log("===== Ejercicio 6 =====");
 for (let i = 0; i < numeros.length; i++) {
     if (numeros[i] > 50) {
         console.log("Número mayor a 50:", numeros[i]);
     }
 }
-// Ejercicio 7
+console.log("===== Ejercicio 7 =====");
 let persona = {
     nombre: "Carlos",
     edad: 20,
@@ -50,7 +50,7 @@ let persona = {
 console.log("Nombre:", persona.nombre);
 console.log("Edad:", persona.edad);
 console.log("Ciudad:", persona.ciudad);
-// Ejercicio 8
+console.log("===== Ejercicio 8 =====");
 let productos = [
     {
         nombre: "Mouse",
@@ -72,7 +72,7 @@ for (let i = 0; i < productos.length; i++) {
     console.log("Producto:", productos[i].nombre);
     console.log("Precio:", productos[i].precio);
 }
-// Ejercicio 9
+console.log("===== Ejercicio 9 =====");
 let productoMayor = productos[0];
 for (let i = 1; i < productos.length; i++) {
     if (productos[i].precio > productoMayor.precio) {
@@ -81,13 +81,13 @@ for (let i = 1; i < productos.length; i++) {
 }
 console.log("Producto más caro:", productoMayor.nombre);
 console.log("Precio:", productoMayor.precio);
-// Ejercicio 10
+console.log("===== Ejercicio 10 =====");
 let valorTotalInventario = 0;
 for (let i = 0; i < productos.length; i++) {
     valorTotalInventario = valorTotalInventario + (productos[i].precio * productos[i].cantidad);
 }
 console.log("Valor total del inventario:", valorTotalInventario);
-// Ejercicio 11
+console.log("===== Ejercicio 11 =====");
 let estudiantesAcademicos = [
     {
         nombre: "Carlos",
@@ -156,7 +156,7 @@ for (let i = 0; i < estudiantesAcademicos.length; i++) {
 }
 let promedioGeneral = sumaPromedios / estudiantesAcademicos.length;
 console.log("Promedio general:", promedioGeneral);
-// Ejercicio 12
+console.log("===== Ejercicio 12 =====");
 for (let i = 0; i < estudiantesAcademicos.length; i++) {
     let sumaNotas = 0;
     for (let j = 0; j < estudiantesAcademicos[i].materias.length; j++) {

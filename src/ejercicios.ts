@@ -1,4 +1,4 @@
-// Ejercicio 1
+console.log("===== Ejercicio 1 =====");
 
 let estudiantes: string[] = [
     "Ana",
@@ -12,11 +12,11 @@ for (let i = 0; i < estudiantes.length; i++) {
     console.log(estudiantes[i]);
 }
 
-// Ejercicio 2
+console.log("===== Ejercicio 2 =====");
 
 console.log("Cantidad de estudiantes:", estudiantes.length);
 
-// Ejercicio 3
+console.log("===== Ejercicio 3 =====");
 
 let numeros: number[] = [20, 60, 35, 80, 50, 75];
 
@@ -28,7 +28,7 @@ for (let i = 0; i < numeros.length; i++) {
 
 console.log("Suma total:", suma);
 
-// Ejercicio 4
+console.log("===== Ejercicio 4 =====");
 
 let numerosAleatorios: number[] = [];
 
@@ -47,13 +47,13 @@ for (let i = 0; i < numerosAleatorios.length; i++) {
 console.log("Cantidad de números:", numerosAleatorios.length);
 console.log("Suma total:", sumaAleatorios);
 
-// Ejercicio 5
+console.log("===== Ejercicio 5 =====");
 
 let promedio: number = suma / numeros.length;
 
 console.log("Promedio:", promedio);
 
-// Ejercicio 6
+console.log("===== Ejercicio 6 =====");
 
 for (let i = 0; i < numeros.length; i++) {
     if (numeros[i] > 50) {
@@ -61,7 +61,7 @@ for (let i = 0; i < numeros.length; i++) {
     }
 }
 
-// Ejercicio 7
+console.log("===== Ejercicio 7 =====");
 
 let persona = {
     nombre: "Carlos",
@@ -73,7 +73,7 @@ console.log("Nombre:", persona.nombre);
 console.log("Edad:", persona.edad);
 console.log("Ciudad:", persona.ciudad);
 
-// Ejercicio 8
+console.log("===== Ejercicio 8 =====");
 
 let productos = [
     {
@@ -98,7 +98,7 @@ for (let i = 0; i < productos.length; i++) {
     console.log("Precio:", productos[i].precio);
 }
 
-// Ejercicio 9
+console.log("===== Ejercicio 9 =====");
 
 let productoMayor = productos[0];
 
@@ -111,7 +111,7 @@ for (let i = 1; i < productos.length; i++) {
 console.log("Producto más caro:", productoMayor.nombre);
 console.log("Precio:", productoMayor.precio);
 
-// Ejercicio 10
+console.log("===== Ejercicio 10 =====");
 
 let valorTotalInventario: number = 0;
 
@@ -121,7 +121,7 @@ for (let i = 0; i < productos.length; i++) {
 
 console.log("Valor total del inventario:", valorTotalInventario);
 
-// Ejercicio 11
+console.log("===== Ejercicio 11 =====");
 
 let estudiantesAcademicos = [
     {
@@ -207,7 +207,7 @@ let promedioGeneral: number =
 
 console.log("Promedio general:", promedioGeneral);
 
-// Ejercicio 12
+console.log("===== Ejercicio 12 =====");
 
 for (let i = 0; i < estudiantesAcademicos.length; i++) {
     let sumaNotas: number = 0;
