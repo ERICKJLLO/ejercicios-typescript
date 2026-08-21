@@ -50,4 +50,23 @@ let persona = {
 console.log("Nombre:", persona.nombre);
 console.log("Edad:", persona.edad);
 console.log("Ciudad:", persona.ciudad);
+// Ejercicio 8
+let productos = [
+    {
+        nombre: "Mouse",
+        precio: 80000
+    },
+    {
+        nombre: "Teclado",
+        precio: 120000
+    },
+    {
+        nombre: "Monitor",
+        precio: 500000
+    }
+];
+for (let i = 0; i < productos.length; i++) {
+    console.log("Producto:", productos[i].nombre);
+    console.log("Precio:", productos[i].precio);
+}
 //# sourceMappingURL=ejercicios.js.map
