@@ -15,3 +15,15 @@ for (let i = 0; i < estudiantes.length; i++) {
 // Ejercicio 2
 
 console.log("Cantidad de estudiantes:", estudiantes.length);
+
+// Ejercicio 3
+
+let numeros: number[] = [2, 1, 3, 5, 4];
+
+let suma: number = 0;
+
+for (let i = 0; i < numeros.length; i++) {
+    suma = suma + numeros[i];
+}
+
+console.log("Suma total:", suma);
