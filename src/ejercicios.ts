@@ -27,3 +27,22 @@ for (let i = 0; i < numeros.length; i++) {
 }
 
 console.log("Suma total:", suma);
+
+// Ejercicio 4
+
+let numerosAleatorios: number[] = [];
+
+for (let i = 0; i < 1500; i++) {
+    let numeroAleatorio: number = Math.round(Math.random() * 100);
+
+    numerosAleatorios.push(numeroAleatorio);
+}
+
+let sumaAleatorios: number = 0;
+
+for (let i = 0; i < numerosAleatorios.length; i++) {
+    sumaAleatorios = sumaAleatorios + numerosAleatorios[i];
+}
+
+console.log("Cantidad de números:", numerosAleatorios.length);
+console.log("Suma total:", sumaAleatorios);

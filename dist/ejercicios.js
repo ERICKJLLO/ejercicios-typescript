@@ -20,4 +20,16 @@ for (let i = 0; i < numeros.length; i++) {
     suma = suma + numeros[i];
 }
 console.log("Suma total:", suma);
+// Ejercicio 4
+let numerosAleatorios = [];
+for (let i = 0; i < 1500; i++) {
+    let numeroAleatorio = Math.round(Math.random() * 100);
+    numerosAleatorios.push(numeroAleatorio);
+}
+let sumaAleatorios = 0;
+for (let i = 0; i < numerosAleatorios.length; i++) {
+    sumaAleatorios = sumaAleatorios + numerosAleatorios[i];
+}
+console.log("Cantidad de números:", numerosAleatorios.length);
+console.log("Suma total:", sumaAleatorios);
 //# sourceMappingURL=ejercicios.js.map
