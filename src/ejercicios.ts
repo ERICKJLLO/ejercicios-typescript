@@ -120,3 +120,89 @@ for (let i = 0; i < productos.length; i++) {
 }
 
 console.log("Valor total del inventario:", valorTotalInventario);
+
+// Ejercicio 11
+
+let estudiantesAcademicos = [
+    {
+        nombre: "Carlos",
+        semestre: 3,
+        materias: [
+            {
+                nombre: "Matemáticas",
+                nota: 4.0
+            },
+            {
+                nombre: "Programación",
+                nota: 4.5
+            },
+            {
+                nombre: "Física",
+                nota: 3.5
+            }
+        ]
+    },
+    {
+        nombre: "Ana",
+        semestre: 2,
+        materias: [
+            {
+                nombre: "Matemáticas",
+                nota: 3.5
+            },
+            {
+                nombre: "Programación",
+                nota: 4.0
+            },
+            {
+                nombre: "Inglés",
+                nota: 4.5
+            }
+        ]
+    },
+    {
+        nombre: "Pedro",
+        semestre: 4,
+        materias: [
+            {
+                nombre: "Matemáticas",
+                nota: 2.5
+            },
+            {
+                nombre: "Programación",
+                nota: 3.0
+            },
+            {
+                nombre: "Física",
+                nota: 3.5
+            }
+        ]
+    }
+];
+
+let sumaPromedios: number = 0;
+
+for (let i = 0; i < estudiantesAcademicos.length; i++) {
+    let sumaNotas: number = 0;
+
+    for (let j = 0; j < estudiantesAcademicos[i].materias.length; j++) {
+        sumaNotas = sumaNotas + estudiantesAcademicos[i].materias[j].nota;
+    }
+
+    let promedioEstudiante: number =
+        sumaNotas / estudiantesAcademicos[i].materias.length;
+
+    console.log(
+        "Promedio de",
+        estudiantesAcademicos[i].nombre,
+        ":",
+        promedioEstudiante
+    );
+
+    sumaPromedios = sumaPromedios + promedioEstudiante;
+}
+
+let promedioGeneral: number =
+    sumaPromedios / estudiantesAcademicos.length;
+
+console.log("Promedio general:", promedioGeneral);
