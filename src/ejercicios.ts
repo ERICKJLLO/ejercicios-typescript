@@ -60,3 +60,15 @@ for (let i = 0; i < numeros.length; i++) {
         console.log("Número mayor a 50:", numeros[i]);
     }
 }
+
+// Ejercicio 7
+
+let persona = {
+    nombre: "Carlos",
+    edad: 20,
+    ciudad: "Dosquebradas"
+};
+
+console.log("Nombre:", persona.nombre);
+console.log("Edad:", persona.edad);
+console.log("Ciudad:", persona.ciudad);
