@@ -11,4 +11,6 @@ let estudiantes = [
 for (let i = 0; i < estudiantes.length; i++) {
     console.log(estudiantes[i]);
 }
+// Ejercicio 2
+console.log("Cantidad de estudiantes:", estudiantes.length);
 //# sourceMappingURL=ejercicios.js.map
